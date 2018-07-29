@@ -17,6 +17,7 @@ app.use("/api/auth",auth);
 
 mongoose.connect("mongodb://localhost:27017/boarding", {useNewUrlParser : true});
 
+
 app.listen(port , ()=>{
     console.log(`Server is listening on port ${port}. . . ` );
 });
